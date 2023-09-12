@@ -1,8 +1,10 @@
-export default function ButtonSocialMedia({ className, iconName, text } : {className: string, iconName: string, text: string}) {
+import Link from "next/link";
+
+export default function ButtonSocialMedia({ className, iconName, text, link } : {className: string, iconName: string, text: string, link: string}) {
   return (
-    <button className={`nes-btn nes-btn-custom margin-15 ${className}`}>
+    <Link className={`nes-btn nes-btn-custom margin-15 ${className}`} href={link} target='_blank'>
       <i className={`nes-icon is-small padding-right-30 ${iconName}`}></i>
       <span>{text}</span>
-    </button>
+    </Link>
   )
 }
