@@ -16,24 +16,28 @@ export default function Home() {
         className=''
         iconName='github'
         text='Github'
+        link='https://github.com/muhammadzhuhry'
       />
 
       <ButtonSocialMedia
         className='is-error'
         iconName='gmail'
         text='Gmail'
+        link='mailto:muhammadzhuhry@gmail.com'
       />
 
       <ButtonSocialMedia
         className='is-success'
         iconName='medium'
         text='Medium'
+        link='https://medium.com/@muhamadzhuhry'
       />
 
       <ButtonSocialMedia
         className='is-primary'
         iconName='linkedin'
         text='Linkedin'
+        link='https://www.linkedin.com/in/muhammadzhuhry/'
       />
 
       <Footer />
