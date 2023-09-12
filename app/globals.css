@@ -70,4 +70,16 @@ p {
     width: 200px;
     height: 200px;
   }
+
+  h4 {
+    font-size: 0.8rem;
+  }
+
+  p {
+    font-size: 0.6rem;
+  }
+
+  .nes-btn-custom span {
+    font-size: 0.7rem;
+  }
 }
